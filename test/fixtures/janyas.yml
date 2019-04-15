@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  raga_name: MyText
+  melakarta: 1
+  scale: MyText
+  Melakartum: one
+
+two:
+  raga_name: MyText
+  melakarta: 1
+  scale: MyText
+  Melakartum: two

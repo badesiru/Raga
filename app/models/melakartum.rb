@@ -1,0 +1,2 @@
+class Melakartum < ApplicationRecord
+end
