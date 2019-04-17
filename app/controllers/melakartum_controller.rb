@@ -1,0 +1,2 @@
+class MelakartumController < ApplicationController
+end

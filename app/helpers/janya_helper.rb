@@ -1,0 +1,2 @@
+module JanyaHelper
+end
