@@ -1,0 +1,26 @@
+<h1>Raga Finder</h1>
+
+
+
+<%= form_with scope: :Janyas, local: true do |form| %>
+
+  <p>
+    <%= form.label :'Enter Scale' %><br>
+    <%= form.text_field :title %>
+  </p>
+
+
+  <p>
+    <%= form.submit :'Search' %>
+  </p>
+
+
+  <p>
+    <%= form.label :'Search Janyas' %><br>
+    <%= form.text_field :title %>
+  </p>
+
+  <p>
+    <%= form.submit :'Search' %>
+  </p>
+<% end %>

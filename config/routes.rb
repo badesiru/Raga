@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
     resources :janya
 
+    resources :melakarta
+
     root 'welcome#index'
 
 

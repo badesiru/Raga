@@ -1,5 +1,5 @@
 class JanyaController < ApplicationController
-  def new
+  def index
   end
 
 
