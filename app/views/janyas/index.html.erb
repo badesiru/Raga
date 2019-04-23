@@ -1,0 +1,18 @@
+<h1>Janya List</h1>
+ 
+<table>
+  <tr>
+    <th>Raga Name</th>
+    <th>Scale</th>
+    <th>Melakartum ID</th>
+    <th></th>
+  </tr>
+ 
+  <% @janyas.each do |janya| %>
+    <tr>
+      <td><%= janya.raga_name %></td>
+      <td><%= janya.scale %></td>
+      <td><%= janya.melakartum_id %></td>
+    </tr>
+  <% end %>
+</table>

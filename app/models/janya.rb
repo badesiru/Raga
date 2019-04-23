@@ -1,3 +1,3 @@
 class Janya < ApplicationRecord
-  belongs_to :Melakartum
+  belongs_to :melakartum
 end

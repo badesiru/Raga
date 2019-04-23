@@ -10,20 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_15_204811) do
+ActiveRecord::Schema.define(version: 2019_04_23_213840) do
 
   create_table "janyas", force: :cascade do |t|
-    t.text "raga_name"
-    t.integer "melakarta"
+    t.string "raga_name"
     t.text "scale"
-    t.integer "Melakartum_id"
+    t.integer "melakartum_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["Melakartum_id"], name: "index_janyas_on_Melakartum_id"
+    t.index ["melakartum_id"], name: "index_janyas_on_melakartum_id"
   end
 
   create_table "melakarta", force: :cascade do |t|
-    t.text "name"
+    t.string "name"
     t.text "scale"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

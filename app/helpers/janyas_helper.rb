@@ -1,0 +1,2 @@
+module JanyasHelper
+end

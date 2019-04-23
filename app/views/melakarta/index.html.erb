@@ -1,0 +1,16 @@
+<h1>Melakartum List</h1>
+ 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Scale</th>
+    <th></th>
+  </tr>
+ 
+  <% @melakarta.each do |melakartum| %>
+    <tr>
+      <td><%= melakartum.name %></td>
+      <td><%= melakartum.scale %></td>
+    </tr>
+  <% end %>
+</table>
