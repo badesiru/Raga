@@ -1,7 +1,0 @@
-      invoke  active_record
-      remove    db/migrate/20190415201444_create_janyas.rb
-      create    db/migrate/20190415203820_create_janyas.rb
-   identical    app/models/janya.rb
-      invoke    test_unit
-   identical      test/models/janya_test.rb
-       force      test/fixtures/janyas.yml
