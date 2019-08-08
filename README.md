@@ -1,43 +1,6 @@
-# README
-
-SCHEMA FOR THE MELAKARTAS TABLE:
-
-CREATE TABLE MELAKARTAS (
-ID INT PRIMARY KEY,
-NAME TEXT NOT NULL,
-SCALE TEXT NOT NULL
-);
-
-SCHEMA FOR THE JANYA TABLE:
-
-CREATE TABLE JANYA (
-ID INT PRIMARY KEY,
-RAGA_NAME TEXT NOT NULL,
-MELAKARTA INT NOT NULL,
-SCALE TEXT NOT NULL,
-FOREIGN KEY (MELAKARTA) REFERENCES MELAKARTAS(ID)
-);
-
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+README
+This is a project to make a ruby on rails webpage showing information about melakarta ragas and janya ragas that I put in a table using sqlite.
+I first put my information in two tables and used a foriegn key to link them.
+Next, I decided I wanted to display all of my information on a website.
+I then started using ruby on rails.Following the tutorial, i designed a page that displayed my information and also linked the information I put in my tables out on the page.
+The following info in this project is how I did that.
