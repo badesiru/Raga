@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
         if user && user.authenticate(params[:session][:password])
             session[:user_id] = user.id 
            flash[:notice] = "Logged in successfully"
-           redirect_to '/'
+         redirect_to '/homes'
         else 
             flash.now[:alert] = "There was something wrong with your login detail"
             render 'new'
@@ -21,3 +21,6 @@ class SessionsController < ApplicationController
         redirect_to root_path
     end
 end
+
+
+
